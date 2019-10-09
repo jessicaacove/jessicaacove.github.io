@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -70,6 +64,212 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/*------------------------
+    Header Section (Nav)
+--------------------------*/
+.header-section {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	position: relative;
+  }
+
+  .site-logo {
+	font-size: 24px;
+	padding-top: 20px;
+  }
+  
+  .main-menu ul {
+	list-style: none;
+	margin-right: 160px
+  }
+  
+  .main-menu ul li {
+	display: inline;
+  }
+  
+  .main-menu ul li a {
+	display: inline-block;
+	float: right;
+	font-size: 18px;
+	color: #001418;
+	margin-left: 15px;
+	margin-right: 10px;
+	padding: 20px 0 5px;
+  }
+  
+  .header-btn {
+	float: right;
+	margin-right: 0;
+  }
+  
+  .nav-switch {
+	display: none;
+  }
+
+/*=== Buttons ===*/
+
+.site-btn {
+	display: inline-block;
+	font-size: 14px;
+	min-width: 140px;
+	text-align: center;
+	padding: 15px 10px;
+	position: relative;
+	color: #fff;
+	border: none;
+	background-color: #000;
+	margin-right: 15px;
+	margin-left: 20px;
+	z-index: 1;
+  }
+  
+  .site-btn.btn-fade {
+	background-color: #979797;
+  }
+  
+  .site-btn.btn-line {
+	background: none;
+	border: 2px solid #000;
+	color: #000;
+	padding: 13px 10px;
+  }
+  
+  .site-btn.btn-line:hover {
+	color: #000;
+  }
+  
+  .site-btn.btn-line-fade {
+	background: none;
+	border: 2px solid #979797;
+	color: #979797;
+	padding: 13px 10px;
+  }
+  
+  .site-btn.btn-line-fade:hover {
+	color: #979797;
+  }
+  
+  .site-btn:hover {
+	color: #fff;
+  }
+
+/* Nav Column Things */
+@media screen and (max-width: 1920px) {
+
+	.col-6 {
+		width: 80%
+	}
+
+	.header-section .row {
+		padding-right:60px;
+		padding-left: 60px;
+	}
+
+	.site-btn.btn-fade {
+		background-color: #979797;
+	  } 
+
+	.site-btn.btn-line {
+		background: none;
+		border: 2px solid #000;
+		color: #000;
+		padding: 13px 10px;
+	  }
+	  
+	  .site-btn.btn-line:hover {
+		color: #000;
+	  }
+	  
+	  .site-btn.btn-line-fade {
+		background: none;
+		border: 2px solid #979797;
+		color: #979797;
+		padding: 13px 10px;
+	  }
+	  
+	  .site-btn.btn-line-fade:hover {
+		color: #979797;
+	  }
+	  
+	  .site-btn:hover {
+		color: #fff;
+	  }
+}
+
+@media screen and (max-width: 870px) {
+	.header-section .row {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.header-section .row {
+		padding-right:10px;
+		padding-left: 10px;
+	}
+	
+	.main-menu {
+		position: absolute;
+		background: #78A1BB;
+		width: 100%;
+		z-index: 999;
+		left: 0;
+		top: 100px;
+		display: none;
+	  }
+	  .main-menu ul li a {
+		padding: 10px 15px;
+		border-bottom: 1px solid #ddd;
+		display: block;
+	  }
+	  .main-menu ul li {
+		display: block;
+	  }
+	  .main-menu ul li:last-child a {
+		border-bottom: none;
+	  }
+	  .home-2 {
+		text-align: left;
+	  }
+	  .home-2 .main-menu {
+		top: 99px;
+	  }
+	  .nav-switch {
+		position: absolute;
+		right: 25px;
+		font-size: 30px;
+		color: #333;
+		top: 35px;
+		display: block;
+	  }
+	  .header-btn {
+		display: none;
+	  }
+	  .site-logo {
+		font-size: 24px
+	  }
+	  .section-title {
+		font-size: 45px;
+	  }
+
+	  .site-btn {
+		margin-left: 5px;
+		margin-right: 10px;
+	  }
+
+	  .portfolio-filter {
+		text-align: center;
+	  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 360px) {
 }
 
 /* Basic */
@@ -177,7 +377,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
 		color: #000000;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 	}
 
 		a:hover {

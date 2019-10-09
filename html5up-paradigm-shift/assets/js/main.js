@@ -9,6 +9,15 @@
 	var	$window = $(window),
 		$body = $('body');
 
+	/*------------------
+		Navigation
+	--------------------*/
+	$('.nav-switch').on('click', function(event) {
+		$('.main-menu').slideToggle(400);
+		event.preventDefault();
+	});
+		
+
 	// Breakpoints.
 		breakpoints({
 			default:   ['1681px',   null       ],
