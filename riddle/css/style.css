@@ -24,7 +24,7 @@ h6 {
   color: #001418;
   margin: 0;
   font-weight: 600;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p {
@@ -681,6 +681,41 @@ ol {
 .contact-form ::placeholder {
   font-style: italic;
 }
+
+/*contact menu styles*/
+
+icon {
+  color: #000000;
+}
+
+ul.items {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+  ul.items > li {
+    padding-left: 0;
+    margin: 0 0 3rem 0;
+  }
+
+    ul.items > li > h3 {
+      margin: 0 0 1rem 0;
+    }
+
+    ul.items > li > :last-child {
+      margin-bottom: 0;
+    }
+
+    ul.items > li:last-child {
+      margin-bottom: 0;
+    }
+
+@media screen and (max-width: 736px) {
+
+  ul.items > li {
+    margin: 0 0 2rem 0;
+  }
 
 /* ===========================
   Responsive
