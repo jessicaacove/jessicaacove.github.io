@@ -15,7 +15,13 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-h1,
+h1 {
+  color: #001418;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
 h2,
 h3,
 h4,
@@ -24,13 +30,28 @@ h6 {
   color: #001418;
   margin: 0;
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-bottom: 10px;
 }
 
 p {
   font-size: 18px;
-  color: #979797;
+  font-weight: 200;
+  color: #001418;
   line-height: 1.8;
+  margin: 0;
+}
+
+p.blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+p .stat-emphasis {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 a {
@@ -40,8 +61,51 @@ a {
   line-height: 1.8;
 }
 
+.fa {
+margin: 10px;
+}
+
+.plan-icon-box li{
+  display: block;
+  margin-bottom: 20px;
+  }
+
+  .plan-item {
+    font-size: 20px;
+    color: #001418;
+    margin: 0;
+    font-weight: 600;
+  } 
+
+li .fa {
+  font-size: 30px;
+}
+
+.afterthoughts li {
+  list-style-type: disc;
+}
+
 img {
   max-width: 100%;
+}
+
+.largeimage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.smallimage {
+  width: 49%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.midscreen {
+  margin-bottom: 20px;
+}
+
+.centerimage {
+  text-align: center;
 }
 
 input:focus,
@@ -381,7 +445,7 @@ ol {
 }
 
 .main-menu ul li a {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   font-size: 18px;
   color: #001418;
@@ -536,9 +600,13 @@ ol {
 }
 
 .social-links a {
-  color: #979797;
+  color: #001418;
   font-size: 15px;
-  margin-right: 30px;
+  margin-right: 0px;
+}
+
+.social-links p {
+  margin-bottom: 0px;
 }
 
 .social-links a:last-child {
@@ -584,6 +652,7 @@ ol {
 --------------------------*/
 .blog-item {
   margin-bottom: 70px;
+  margin-top: 10px;
 }
 
 .blog-item .read-more {
@@ -621,7 +690,8 @@ ol {
 }
 
 .blog-content p {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  color: #001418;
 }
 
 /*------------------------
@@ -798,4 +868,4 @@ ul.items {
   .section-title {
     font-size: 30px;
   }
-}
+}}
