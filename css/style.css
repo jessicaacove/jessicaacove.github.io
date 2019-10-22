@@ -65,6 +65,10 @@ a {
 margin: 10px;
 }
 
+.fas {
+  margin: 10px;
+}
+
 .plan-icon-box li{
   display: block;
   margin-bottom: 20px;
@@ -78,6 +82,10 @@ margin: 10px;
   } 
 
 li .fa {
+  font-size: 30px;
+}
+
+li .fas {
   font-size: 30px;
 }
 
@@ -547,6 +555,30 @@ ol {
 .portfolio-item:hover .pi-inner h2 {
   opacity: 1;
   letter-spacing: 0;
+}
+
+.portfolio-item .project-description {
+  position: absolute;
+  left:50px;
+  top: 200px;
+  max-width: 250px;
+  background-color: rgb(0,0,0,.4);
+}
+
+.portfolio-item .project-description h4 {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.portfolio-item .coming-soon {
+  position: absolute;
+  left:50px;
+  bottom: 50px;
+  max-width: 250px;
+}
+
+.portfolio-item .coming-soon h3 {
+  color: #ffffff;
 }
 
 .portfolio-meta {
