@@ -42,10 +42,6 @@ p {
   margin: 0;
 }
 
-p .pretty {
-  color: #7C98B3;
-}
-
 p.blockquote {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -168,7 +164,7 @@ ol {
 }
 
 .section-title span {
-  color: #979797;
+  color:  #7C98B3;
 }
 
 /*------------------------
