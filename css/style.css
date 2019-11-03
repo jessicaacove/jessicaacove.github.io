@@ -118,6 +118,11 @@ img {
   text-align: center;
 }
 
+.headerimage {
+  padding: -110px 0;
+  height: 30%;
+}
+
 input:focus,
 select:focus,
 button:focus,
