@@ -119,8 +119,11 @@ img {
 }
 
 .headerimage {
-  padding: -110px 0;
-  height: 30%;
+  max-height: 300px
+}
+
+.headertitles {
+  margin: auto;
 }
 
 input:focus,
